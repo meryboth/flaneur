@@ -1,0 +1,127 @@
+main {
+  #flaneur-definition {
+    width: 100%;
+    background-color: $purple;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 20rem;
+    color: $white;
+
+    .flaneur-definition__paragraph {
+      padding: 2rem;
+      width: 35%;
+    }
+
+    .flaneur_title {
+      padding: 4rem;
+    }
+  }
+
+  #galeria-aleatoria {
+    max-width: 88%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin: 1rem auto 1rem auto;
+    padding: 10px;
+
+    img {
+      object-fit: cover;
+      overflow: hidden;
+      width: 500px;
+      height: 500px;
+    }
+  }
+
+  #flaneur-life {
+    width: 100%;
+    background-color: $purple;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 20rem;
+    color: $white;
+
+    .flaneur-life__title {
+      padding: 4rem;
+    }
+
+    p {
+      padding: 2rem;
+      width: 35%;
+    }
+  }
+
+  #about-me {
+    background-color: $white;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+
+    img {
+      width: 725px;
+      padding: 2rem;
+      margin: 2rem;
+    }
+
+    .about-me__text {
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h2 {
+        padding: 0rem 2rem 2rem 0rem;
+      }
+    }
+
+    .about-me__contact {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem 0rem 1rem 0rem;
+
+      p {
+        padding: 2rem 0rem 2rem 0rem;
+      }
+
+      button {
+        background-color: $pink;
+        font-size: 1.2rem;
+        max-width: 7rem;
+        border: none;
+        padding: 0.5rem;
+        color: $white;
+        border-radius: 0.3rem;
+
+        &:hover {
+          background-color: $purple;
+        }
+
+        a {
+          text-decoration: none;
+          color: $white;
+        }
+      }
+    }
+  }
+
+  #up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      font-size: 4rem;
+      color: $purple;
+      padding: 1rem 3rem 3rem 3rem;
+    }
+
+  }
+}

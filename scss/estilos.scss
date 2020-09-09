@@ -1,0 +1,48 @@
+/* colores */
+$white: #f5f5f5;
+$grey: #e0dede;
+$pink: #ffa5b0;
+$purple: #6a197d;
+$black: #382933;
+
+/*fuentes*/
+$font: "Quicksand",
+sans-serif;
+$font-h: 700;
+$font-p: 300;
+
+/*tamaño de fuentes*/
+
+$font-h-size: 3rem;
+$font-p-size: 1.2rem;
+
+/*seteos generales*/
+
+* {
+  margin: 0;
+  padding: 0;
+
+  body {
+    background: $white;
+    color: $black;
+    font-family: $font;
+    font-size: $font-p-size;
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: $font;
+      font-size: $font-h-size;
+    }
+  }
+}
+
+/*archivos importados*/
+@import "_header";
+@import "_footer";
+@import "_index";
+@import "_cities";
+@import "_food-corner";
+
+/*mixins*/

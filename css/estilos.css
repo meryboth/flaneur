@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* colores */
+/*fuentes*/
+/*tamaño de fuentes*/
+/*seteos generales*/
+* {
+  margin: 0;
+  padding: 0; }
+  * body {
+    background: #f5f5f5;
+    color: #382933;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem; }
+    * body h1,
+    * body h2,
+    * body h3,
+    * body h4 {
+      font-family: "Quicksand", sans-serif;
+      font-size: 3rem; }
+
+/*archivos importados*/
+#header {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  #header img {
+    width: 80%;
+    margin: 1rem 1rem 1rem 6rem; }
+  #header ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 5rem 0rem 0rem;
+    justify-content: center;
+    align-items: center; }
+    #header ul #dropdownMenuLink {
+      background-color: none;
+      color: white;
+      background-color: #ffa5b0;
+      border: none;
+      margin-right: 1rem; }
+      #header ul #dropdownMenuLink:hover {
+        background-color: #6a197d; }
+      #header ul #dropdownMenuLink:active {
+        border: none; }
+      #header ul #dropdownMenuLink:visited {
+        border: none; }
+    #header ul li {
+      padding: 1rem;
+      list-style: none; }
+      #header ul li a {
+        text-decoration: none;
+        color: #382933;
+        padding: 0.5rem; }
+        #header ul li a:hover {
+          background-color: #ffa5b0;
+          border-radius: 0.1rem; }
+
+#footer {
+  background-color: #e0dede;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  #footer #footer__copyright {
+    padding: 1.7rem;
+    display: flex;
+    flex-direction: row; }
+  #footer #footer__social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem 0rem 2rem 0rem; }
+    #footer #footer__social li {
+      list-style: none; }
+      #footer #footer__social li i {
+        font-size: 1.7rem;
+        padding: 1rem;
+        color: #6a197d; }
+        #footer #footer__social li i:hover {
+          color: #ffa5b0; }
+
+main #flaneur-definition {
+  width: 100%;
+  background-color: #6a197d;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 20rem;
+  color: #f5f5f5; }
+  main #flaneur-definition .flaneur-definition__paragraph {
+    padding: 2rem;
+    width: 35%; }
+  main #flaneur-definition .flaneur_title {
+    padding: 4rem; }
+
+main #galeria-aleatoria {
+  max-width: 88%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin: 1rem auto 1rem auto;
+  padding: 10px; }
+  main #galeria-aleatoria img {
+    object-fit: cover;
+    overflow: hidden;
+    width: 500px;
+    height: 500px; }
+
+main #flaneur-life {
+  width: 100%;
+  background-color: #6a197d;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 20rem;
+  color: #f5f5f5; }
+  main #flaneur-life .flaneur-life__title {
+    padding: 4rem; }
+  main #flaneur-life p {
+    padding: 2rem;
+    width: 35%; }
+
+main #about-me {
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem; }
+  main #about-me img {
+    width: 725px;
+    padding: 2rem;
+    margin: 2rem; }
+  main #about-me .about-me__text {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    main #about-me .about-me__text h2 {
+      padding: 0rem 2rem 2rem 0rem; }
+  main #about-me .about-me__contact {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0rem 1rem 0rem; }
+    main #about-me .about-me__contact p {
+      padding: 2rem 0rem 2rem 0rem; }
+    main #about-me .about-me__contact button {
+      background-color: #ffa5b0;
+      font-size: 1.2rem;
+      max-width: 7rem;
+      border: none;
+      padding: 0.5rem;
+      color: #f5f5f5;
+      border-radius: 0.3rem; }
+      main #about-me .about-me__contact button:hover {
+        background-color: #6a197d; }
+      main #about-me .about-me__contact button a {
+        text-decoration: none;
+        color: #f5f5f5; }
+
+main #up {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  main #up i {
+    font-size: 4rem;
+    color: #6a197d;
+    padding: 1rem 3rem 3rem 3rem; }
+
+#galeria {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center; }
+  #galeria .galeria__ciudad {
+    background-color: #e0dede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 88%;
+    padding: 3rem;
+    margin: 0.5rem;
+    border-radius: 1rem; }
+  #galeria .copenague {
+    background-image: url("https://i.ibb.co/s6ygMkx/copenague.jpg");
+    background-repeat: no-repeat, no-repeat; }
+
+main #galeria-food {
+  max-width: 88%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin: 1rem auto 1rem auto;
+  padding: 10px; }
+  main #galeria-food img {
+    object-fit: cover;
+    overflow: hidden;
+    width: 500px;
+    height: 500px; }
+
+/*mixins*/

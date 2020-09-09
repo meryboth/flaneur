@@ -1,0 +1,23 @@
+#galeria {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+    .galeria__ciudad {
+        background-color: $grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 88%;
+        padding: 3rem;
+        margin: 0.5rem;
+        border-radius: 1rem;
+    }
+
+    .copenague {
+        background-image: url("https://i.ibb.co/s6ygMkx/copenague.jpg");
+        background-repeat: no-repeat, no-repeat;
+    }
+}

@@ -1,0 +1,59 @@
+#header {
+  background-color: $white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 80%;
+    margin: 1rem 1rem 1rem 6rem;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 5rem 0rem 0rem;
+    justify-content: center;
+    align-items: center;
+
+    #dropdownMenuLink {
+      background-color: none;
+      color: white;
+      background-color: $pink;
+      border: none;
+      margin-right: 1rem;
+
+      &:hover {
+        background-color: $purple;
+      }
+
+      &:active {
+        border: none;
+      }
+
+      &:visited {
+        border: none;
+      }
+
+
+
+    }
+
+    li {
+      padding: 1rem;
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: $black;
+        padding: 0.5rem;
+
+        &:hover {
+          background-color: $pink;
+          border-radius: 0.1rem;
+        }
+      }
+    }
+  }
+}

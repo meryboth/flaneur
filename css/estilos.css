@@ -17,6 +17,12 @@
     * body h4 {
       font-family: "Quicksand", sans-serif;
       font-size: 3rem; }
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 /*archivos importados*/
 #header {
@@ -84,7 +90,7 @@
 main #flaneur-definition {
   width: 100%;
   background-color: #6a197d;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -98,17 +104,18 @@ main #flaneur-definition {
     padding: 4rem; }
 
 main #galeria-aleatoria {
-  max-width: 88%;
+  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
   grid-gap: 1rem;
-  margin: 1rem auto 1rem auto;
   padding: 10px; }
   main #galeria-aleatoria img {
+    
     object-fit: cover;
     overflow: hidden;
-    width: 500px;
-    height: 500px; }
+    width: 400px;
+    height: 400px; }
 
 main #flaneur-life {
   width: 100%;
